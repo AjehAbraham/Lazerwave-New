@@ -153,6 +153,20 @@ $link_hash = $id ="";
  
 // $link_result = $result -> fetch_assoc();
  
+
+ 
+ if(!$link_result["Status"] == "Active"){
+     $message_status ="Link has expire,please contact the link owner for a new link.";
+     
+     require_once "Failed.php";
+     
+     die();
+     
+ }
+ 
+ 
+ 
+
  
  
  //NOW USE LINK USE LINK DETAILS TO FETCH USER NAME//
@@ -335,6 +349,22 @@ echo "
  
  $link_result = $result -> fetch_assoc();
  
+
+ 
+ if(!$link_result["Status"] == "Active"){
+     $message_status ="Link has expire,please contact the link owner for a new link.";
+     
+     require_once "Failed.php";
+     
+     die();
+     
+ }
+ 
+ 
+ 
+
+
+
  $_SESSION["Link_details"] = $link_result["Hash_link"];
  
  
