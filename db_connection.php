@@ -12,10 +12,10 @@ realpath($_SERVER['SCRIPT_FILENAME'])){
 
 $servername = "localhost";
 /*
-$db_username = "id19788732_lazertrigger";
+$db_username = "root";
 
-$db_password = "Lazerwaveajeh821203$";
-$db_name = "id19788732_lazerwave";
+$db_password = "";
+$db_name = "Lazerwave";
 */
 
 $db_username ="u891769756_elIr4";
