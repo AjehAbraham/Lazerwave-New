@@ -11,16 +11,12 @@ realpath($_SERVER['SCRIPT_FILENAME'])){
 }
 
 $servername = "localhost";
-/*
+
 $db_username = "root";
 
 $db_password = "";
 $db_name = "Lazerwave";
-*/
 
-$db_username ="u891769756_elIr4";
-$db_password ="Lazerwaveajeh821203$";
-$db_name ="u891769756_cJ4EQ";
 
 $conn = mysqli_connect($servername,$db_username,$db_password,$db_name);
 
