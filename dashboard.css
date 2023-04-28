@@ -1,0 +1,206 @@
+body{
+    /* background-color: blue;*/
+     margin: 0;
+font-size: 15px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+     font-weight: lighter;
+ }
+ .dashboard-container{
+     margin-bottom: 20px;
+     padding: 10px 10px;
+ }
+ .dashboard-container span{
+     margin-top: 10px;
+     font-size: 23px;
+     color: rgb(0,0,180);
+ }
+ .dashboard-container i{
+     color: rgb(0,0,180);
+     font-size: 23px;
+     float: right;
+     margin: 7px;
+     margin-top: 20px;
+ }
+ .dashboard-container img{
+     float: right ;
+     border-radius: 50%;
+     width: 80px;
+     height: 80px;
+     border: 3px solid rgb(0,0,180);
+ }
+ 
+ @media screen and  (max-height:460px){
+     .dashboard-menu-container{width: 70%;}
+ }
+ @media (max-height:450px){
+     .dashboard-menu-container{width:70%;}
+ }
+.dashboard-menu-container{
+     padding: 9px 9px;
+     border-radius: 2rem;
+     width: 92%;
+     margin-left: auto;
+     margin-right: auto ;
+     background-color: rgb(0,0,180);
+     color: white;
+ }
+ .dashboard-menu-container a:link{
+     text-decoration: none;
+  
+ }
+ .dashboard-container a:visited{
+   
+ }
+ .dashboard-menu-container  p i:nth-child(1){
+   float: right;
+ }
+
+ .account-balance{
+     padding: 12px 12px;
+ }
+ .account-balance i:nth-child(1){
+     margin-left: 5px;
+ }
+ .account-balance i:nth-child(2){
+     margin-left: 5px;
+ }
+ .account-balance i:nth-child(3){
+     margin-left: 5px;
+ }
+
+ .flex-box{
+     display: flex;
+    } 
+    .dashboard-select-menu{
+     margin-left: auto;
+     margin-right: auto;
+  padding: 6px 8px;
+     background-color: white;
+     color: rgb(0,0,180);
+     font-size: 22px;
+     overflow: hidden;
+     margin-bottom: 12px;
+    }
+    .dashboard-select-menu i a:link{
+     color: rgb(0,0,180);
+    }
+    .dashboard-select-menu a:visited{
+     color: rgb(0,0,180);
+    }
+    .dashboard-select-menu a:link{
+     color: rgb(0,0,180);
+ 
+    }
+    .dashboard-select-menu a:visited{
+     color: rgb(0,0,180);
+    }
+    .dashboard-select-menu-text{
+     margin-left: auto;
+     margin-right: auto;
+  padding: 10px 10px;
+     color: white;
+     font-size: 22px;
+     overflow: hidden;
+     margin-bottom: 12px;
+ 
+    }
+
+
+    i{
+        cursor: pointer;
+        
+    }
+    span{
+        cursor: pointer;
+    }
+ .flex{
+     display: flex;
+ }
+ .quick-actions-container{
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 50%;
+     width: 80px;
+     height: 80px;
+     box-shadow: 0px 18px 8px 0px rgba(0,0,0,0.2) ;
+     margin-top: 20px;
+     background-color: rgb(0,52,102);
+     color: white;
+     font-size: 15px;
+     margin-bottom: 10px;
+ }
+
+ a:link{
+    color: white;
+    text-decoration: none;
+  }
+  a:visited{
+    color: white;
+  }
+.options-container{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width:96%;
+}
+.Send-cash{
+width: 46%;
+padding: 10px 10px;
+margin-right: 4px;
+background-color: mediumseagreen;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+}
+.Send-cash i{
+margin-right: 5px;
+}
+.Send-cash a:link{
+color: white;
+text-decoration: none;
+}
+.Send-cash a:visited{
+color: white;
+}
+.Top-up{
+width: 46%;
+padding: 10px 10px;
+margin-right: 4px;
+background-color: skyblue;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+
+}
+.Top-up i{
+margin-right: 5px;
+}
+.Top-up a:link{
+color: white;
+text-decoration: none;
+}
+.Top-up a:visited{
+color: white;
+}
+.advert-box{
+margin-top: 10px;
+margin-bottom: 12px;
+background-color: #f1f1f1;
+text-align: center;
+}
+
+  .Dark-mode {
+      
+      background-color: black;
+      color: white;
+      }
+    .Dark-mode .Notifications-container{
+    
+    background-color: black;
+    color: white;
+    
+    }

@@ -1,0 +1,191 @@
+body{
+    
+    margin: 0;
+    font-size: 15px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-weight: lighter;
+}
+.bank-card-container{
+    background-color: rgb(0,0,52);
+    color: white;
+    margin: 0;
+    padding: 2px 2px;
+    margin-bottom: 20px;
+  
+}
+.bank-card-container h1{
+    text-align: center;
+    font-weight: lighter;
+
+}
+.bank-card-container i{
+    margin-right: 12px;
+}
+.bank-card-container a:link{
+    color: white;;
+}
+.bank-card-container a:visited{
+    color: white;
+}
+.saved-cards{
+    background-color: white;
+    padding: 5px 5px;
+  /*  border-top: 2px solid rgb(0,0,180);*/
+    margin-bottom: 10px;
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2); 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+  
+}
+@media screen only and(min-width:600px){
+    .saved-cards{
+        width: 60%;
+    }
+}
+.saved-cards i{
+    margin-left: 10px;
+}
+.saved-cards img{
+    margin-top: 10px;
+}
+.saved-cards a:link{
+    color: #666;
+    text-decoration: none;
+}
+.saved-cards a:visited{
+    color: #666;
+}
+.Dark-mode {
+    background-color: black;
+    color: white;
+}
+.Dark-mode .saved-cards {
+   background-color: rgb(0,0,56); 
+   color: #666;
+    
+}
+.saved-cards p:nth-child(2){
+    border-radius: 2rem;
+    float: right;
+    color: #666;
+    padding: 6px 6px;
+    background-color: rgb(0,0,56);
+    width: 40%;
+}
+.Dark-mode .saved-cards p:nth-child(2){
+    color: #666;
+    border: 2px solid white ;
+}
+.Dark-mode .add-card{
+    color: white;
+    background-color: rgb(0,0,56);
+}
+.add-card{
+    background-color: rgb(0,0,180);
+    padding: 5px 5px;
+    border-top: 2px solid #ccc;
+    margin-bottom: 10px;
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2); 
+    color: white;
+    text-align: center;
+}
+.add-card i{
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+}
+.add-card a:link,a:visited{
+    color: white;
+    text-decoration: none;
+}
+.add-card-information{
+    overflow-y: scroll;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    transition: 0.2s;
+}
+.add-card-information h1{
+    text-align: center;
+    color: rgb(0,0,180);
+    font-size: 18px;
+    font-weight: lighter;
+}
+.add-card-information span{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: rgb(0,0,180);
+}
+.add-card-information i{
+    color: gold;
+}
+/*
+input[type =number]{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    display: block;
+    margin-top: 10px;
+}
+input[type =text]{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    display: block;
+    margin-top: 10px;
+}
+input[type =tel]{
+    margin-left: 10px;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    color: white;
+    background-color: rgb(0,0,180);
+    border: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}*/
+label{
+    margin-left: 12px;
+    color: rgb(0,0,180);
+}
+span{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+    
+}
+span{
+    cursor: pointer;
+}
