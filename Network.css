@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    font-size: 18px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-weight: lighter;
+}
+i{
+    cursor: pointer;
+    
+}
+span{
+    cursor: pointer;
+}

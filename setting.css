@@ -1,0 +1,652 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+font-weight: lighter;
+}
+span{
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+.setting-container{
+
+
+}
+.setting-container h1{
+    text-align: center;
+    color: rgb(0,0,180);
+    font-weight: lighter;
+    font-size: 15px;
+}
+.setting-container i{
+    color: rgb(0,0,180);
+    margin-right: 10px;
+}
+/*
+.setting-container i:nth-child(2){
+margin-right: 30px;
+}*/
+.setting-container p{
+    padding: 20px 20px;
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+   /* border-top: 2px solid rgb(0,0,180);*/
+    cursor: pointer;
+    
+}
+@media screen only and(min-width: 600px){
+    
+    
+    .setting-container p{
+        
+        width: 68%;
+    }
+    
+}
+
+
+.Payment-link-container{
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    border-top: 2px solid rgb(0,0,180);
+    height: 100%;
+    transition: 0.2s ;
+    position: fixed;
+    text-align: center;
+    width: 0%;
+    overflow-y: scroll;
+
+}
+.Payment-link-container i{
+   color: rgb(0,0,70);
+   font-size: 25px;
+}
+
+
+
+
+
+
+.flex-box{
+    display: flex;
+    margin-left: auto;
+    margin-left: auto;
+    width: 100%;
+    color: white;
+}
+.flex-box p{
+  margin-left: 5px;
+  cursor: pointer;
+}
+.flex-box p:nth-child(1){
+    background-color: tomato;
+    width: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.flex-box p:nth-child(2){
+    background-color: mediumseagreen;
+    width: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+  
+}
+.flex-box a:link{
+    color: white;
+}
+.flex-box a:visited{
+    color: white;
+}
+.payment-link-overlay{
+    width: 0%;
+    background-color: rgba(0,0,0,0.2);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+.security-container a:link{
+    color: black;
+
+    text-decoration: none;
+}
+.security-container a:visited{
+    color: black;
+}
+.security-container i{
+    color: rgb(0,0,180);
+}
+.security-container{
+    overflow-y: scroll;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    transition: 0.3s;
+  /*  border-top: 2px solid rgb(0,0,180);*/
+}
+i{
+    cursor: pointer;
+    
+}
+span{
+    cursor: pointer;
+}
+.security-container h1{
+    text-align: center;
+    color: rgb(0,0,180);
+    font-weight: lighter;
+    font-size: 18px;
+}
+.security-container p{
+    padding: 20px 20px;
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+   /* border-top: 2px solid rgb(0,0,180);*/
+}
+@media screen only and (min-width: 600px){
+    
+    .security-container p{
+        width: 70%;
+    }
+    
+}
+.security-container i{
+    margin-right: 10px;
+    color: rgb(0,0,180);
+}
+.security-container span:nth-child(1){
+    color: rgb(0,0,180);
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
+.transaction-pin-container{
+    overflow-y: scroll;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    transition: 0.3s;
+    text-align: center;
+}
+.transaction-pin-container h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(0,0,56);
+font-weight: lighter;
+font-size: 18px;
+padding: 9px 9px;
+margin: auto;
+width: 62%;
+border-radius: 2rem;
+}
+.transaction-pin-container input[type=password]{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 3px solid #ccc;
+}
+input[type=number]{
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: 3px solid #ccc;
+    outline: none;
+    width: 70%;
+    display: block;
+}
+.transaction-pin-container input[type=submit]{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(0,0,56);
+    margin-bottom: 20px;
+}
+.transaction-pin-container span{
+    font-size: 25px;
+    color: rgb(0,0,180);
+}
+label{
+    color: #333;
+}
+.change-password-container{
+    overflow-y: scroll;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    transition: 0.3s;
+    text-align: center;
+}
+.change-password-container h1{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 9px 9px;
+margin: auto;
+width: 62%;
+border-radius: 2rem;
+background-color: rgb(0,0,56);
+    
+}
+.change-password-container i{
+    color: white;
+}
+.change-password-container span{
+    font-size: 25px;
+    color: rgb(0,0,180);
+}
+.change-password-container input[type=password]{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+}
+
+
+.change-password-container input[type=number]{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+}
+
+
+
+.change-password-container input[type=submit]{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(0,0,56);
+    margin-bottom: 20px;
+    border-radius: 2rem;
+}
+.change-password-container i{
+    margin-right: 10px;
+}
+
+
+
+.report-scam-container{
+    overflow-y: scroll;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    transition: 0.3s;
+    text-align: center;
+}
+.support i{
+    border-radius: 50%;
+    background-color: rgb(0,0,56);
+    width: 50px;
+    height: 50px;
+    color: white;
+font-size: 38px;
+text-align: center;
+}
+.report-scam-container span{
+    color: rgb(0,0,56);
+    font-size: 18px;
+    text-align: center;
+}
+.report-scam-container h1{
+    text-align: center;
+    color: rgb(0,0,56);
+    font-weight: lighter;
+    font-size: 18px;
+}
+.report-scam-container h1 i{
+    margin-right: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.delete-account{
+    color: red;
+}
+.delete-account i{
+    color: red;
+}
+
+.Dark-mode .account-limit-overlay-container{
+    background-color: black;
+}
+.account-limit-overlay-container{
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    overflow: scroll;
+    width: 0%;
+    transition: 0.3s;
+      }
+    .account-limit-container{
+    background-color: white;
+    padding: 10px 10px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 10%;
+    }
+    .account-limit-container p{
+    
+      font-size: 18px;
+    }
+    .account-limit-container h1{
+      color: rgb(0,0,180);
+    }
+    .Kyc1-container{
+      padding: 12px 12px;
+      background-color: rgb(0,0,56);
+      border-radius: 2rem;
+      color: white;
+    }
+    
+    .Kyc2-container{
+      padding: 12px 12px;
+      background-color: rgb(0,0,56);
+      border-radius: 2rem;
+      color: white;
+    }
+    
+    .Kyc3-container{
+      padding: 12px 12px;
+      background-color: rgb(0,0,56);
+      border-radius: 2rem;
+      color: white;
+      margin-bottom: 10%;
+    }
+    i{
+      cursor: pointer;
+    }
+
+    
+.loader-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right:0;
+    display: none;
+    
+    }
+    .loader-message{
+        left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -75px 0 0 -75px;
+    
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    border: 10px solid white;
+    border-top: 10px solid rgb(0,0,56);
+    animation: rotate 2s  linear infinite;
+    
+    }
+    @keyframes rotate {
+        0%{transform: rotate(0deg)}
+        100%{transform: rotate(360deg)}
+    }
+    
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float: right;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: rgb(0,0,56);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+    
+    
+    .Dark-mode{
+    background-color: black;
+    color: white;
+    
+    }
+    .Dark-mode i{
+    color: white;
+    
+    }
+    .Dark-mode span {
+    color: white;
+    
+    }
+    
+    .Dark-mode .setting-container p{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 16px 8px 0px #ccc;
+    }
+    
+    .Dark-mode .setting-container i{
+    color: white;
+    
+    }
+    .Dark-mode .setting-container  span{
+        color: white;
+    }
+    .Dark-mode .setting-container a:link{
+        
+        color: white;
+    }
+    
+    .Dark-mode .security-container{
+    background-color: black;
+    color: white;
+    
+    }
+    .Dark-mode .security-container p{
+        background-color: black;
+        box-shadow: 0px 16px 8px #ccc;
+    }
+    .Dark-mode .security-container a:link{
+        
+        color: white;
+    }
+     .Dark-mode .security-container i{
+     color: white;
+     
+     
+     }
+      .Dark-mode .security-container  span{
+      
+      color: white;
+      
+      
+      }
+      .Dark-mode .security-container h1{
+          
+          color: white;
+      }
+      
+      .Dark-mode .security-container  a:link{
+          color: white;
+      }
+      .Dark-mode .security-container a:visited{
+          color: white;
+      }
+      .Dark-mode .account-limit-container{
+          color: white;
+          
+          background-color: black;
+      }
+    .Dark-mode .account-limit-container i{
+        color: white;
+    }
+    
+    .Dark-mode .report-scam-container{
+        color: white;
+        background-color: black;
+    }
+    .Dark-mode .report-scam-container i{
+        color: white;
+    }
+    .Dark-mode .report-scam-container h1{
+        color: white;
+    }
+    
+    .Dark-mode .change-password-container{
+        color: white;
+        background-color: black;
+    }
+    .Dark-mode label{
+        color: white;
+    }
+   .Dark-mode .transaction-pin-container{
+        color: white;
+        background-color: black;
+    }
+    
+    .Dark-mode .Payment-link-container{
+        color: white;
+        background-color: black;
+    }
+    .Dark-mode .delete-account i{
+        color: red;
+    }
+    
+    .Dark-mode .delete-account{
+        color: red;
+    }
+    .Dark-mode span{
+        color: white;
+    }

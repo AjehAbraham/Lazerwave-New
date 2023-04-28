@@ -1,0 +1,136 @@
+
+body{
+    
+    margin: 0;
+    font-size: 15px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-weight: lighter;
+    background-color: #f1f1f1;
+    }
+    
+    .Dark-mode {
+        background-color: black;
+        color: white;
+    }
+    .Dark-mode .top-nav{
+        color: white;
+    }
+    .Dark-mode .top-nav a:link,a:visited{
+        color: white;
+    }
+    .Dark-mode .form-container{
+        background-color: black;
+        color: white;
+    }
+    .Dark-mode span,i{
+        color: white;
+    }
+    .Dark-mode lable{
+        color: white;
+    }
+    .Dark-mode input{
+        background-color: #f1f1f1;
+    }
+    .top-nav i{
+    margin-top: 5px;
+    float: right;
+    }
+    .top-nav a:link{
+    color: rgb(0,0,180);
+    text-decoration: none;
+    }
+    .top-nav a:visited{
+    color: rgb(0,0,180);
+    }
+    
+    .form-container{
+    width: 90%;
+    margin: auto;
+    /*background-color: rgba(255,0,0,0.2);*/
+    padding: 7px 7px;
+    margin-top: 20px;
+    color: #666;
+    }
+    .form-container h1{
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    background-color: rgb(0,0,56);
+    border-radius: 2rem;
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px;
+    width: 70%;
+    }
+    @media screen only(max-height: 600px){
+        
+        .form-container h1{
+            
+            width: 60%;
+        }
+        
+    }
+    
+    
+    .form-container input[type=number],input[type=text]
+    {padding: 10px 10px;
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    outline: none;
+    border: 2px solid #ccc;
+    }
+    .form-container input[type=submit]{
+    padding: 10px 10px;
+    font-size: 18px;
+    width: 60%;
+    border: none;
+    color: white;
+    background-color: rgb(0,0,56);
+    border-radius: 2rem;
+    }
+   
+   .loader-overlay{
+background-color: rgba(255,255,255,0.8);
+position: fixed;
+width: 100%;
+height: 100%;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+display: none;
+}
+.loader{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+border: 10px solid #f1f1f1;
+border-top: 10px solid rgb(0,0,100);
+margin: -70px 0 0 -70px;
+left: 50%;
+top: 50%;
+position: absolute;
+animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+   
+   

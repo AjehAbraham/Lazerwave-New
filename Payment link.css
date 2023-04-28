@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    font-size: 18px;
+    background-color: rgb(0,0,180);
+    color: white;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-weight: lighter;
+}
+.payment-link-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 2rem;
+    box-shadow: 10px 16px 8px 10px rgba(0,52,102);
+    animation: loader-container 1s ease-in-out;
+    color: grey;
+}
+@keyframes loader-container {
+    0%{transform: translate3d(50px,0,0);}
+    100%{transform: translate3d(0,0,0);}
+}
+.payment-link-container i{
+    color: white;
+    background-color: rgb(0,0,180);
+    text-align: center;
+    font-size: 100px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.payment-link-container input[type=text]{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    width: 90%;
+    font-size: 18px;
+
+}
+.payment-link-container input[type=number]{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    width: 90%;
+    font-size: 18px;
+
+}
+.payment-link-container input[type=submit]{
+    margin-left: 20px;
+    padding: 10px 10px;
+    border: 2px solid #ccc;
+    width: 60%;
+    background-color: rgb(0,0,180);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+}
+h1{
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: lighter;
+}
+label{
+    margin-left: 10px;
+    color: grey;
+}
+p{
+    text-align: center;
+}
+
+.Reciept-container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    color: grey;
+   /* overflow-y: scroll;*/
+  border: 3px solid grey;
+   padding: 10px 10px;
+   border-radius: 2rem;
+   z-index: 2;
+   background-color: white;
+   overflow-x: scroll;
+}
+.Reciept-container p:nth-child(1){
+    text-align: center;
+    font-size: 25px;
+}
+.Reciept-container p:nth-child(2){
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 10px 10px;
+    width: 50%;
+    border: 3px solid grey;
+}
+.Reciept-container p:nth-child(3){
+    text-align: center;
+    font-size: 24px;
+}
+.Reciept-container b{
+    float: right;
+}
+.Reciept-container p:nth-child(10){
+    background-color: mediumseagreen;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
+    
+}
+span{
+    cursor: pointer;
+}
+
+.share-receipt-container  {
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+  /*  overflow-y: scroll;*/
+  width: 0%;
+  transition: 0.5s;
+
+}
+.share-box{
+    width: 0%;
+    top: 50%;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    padding: 10px 10px;
+    overflow-y: scroll;
+    border-top: 2px solid rgb(0,0,180);
+
+    transition: 0.5s;
+}
+.share-box p:nth-child(3){
+    text-align: center;
+    padding: 18px 18px;
+    color: rgb(0,52,102);
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
+    border-top: 1px solid #ccc;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+}
+.share-box p:nth-child(4){
+    text-align: center;
+    padding: 18px 18px;
+    color: rgb(0,52,102);
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
+    border-top: 1px solid #ccc;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+}
+.share-box i{
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(0,0,180);
+}

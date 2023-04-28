@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+font-weight: lighter;
+}
+.transaction-history-container{
+    background-color: rgb(0,52,102);
+    color: white;
+    margin: 0;
+    padding: 2px 2px;
+    margin-bottom: 20px;
+}
+.transaction-history-container input[type=search]{
+    padding: 10px 10px;
+    border: 3px solid #ccc;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 10px;
+    outline:4px solid  rgb(0,52,102);
+}
+.transaction-history-container h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.transaction-history-container i{
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.transaction-history-container i:nth-child(2){
+    color: gold;
+    /*text-align: center;
+    color: green;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;*/
+}
+.transaction-history-container span{
+    margin-top: 1px;
+    width: 40%;
+    cursor: pointer;
+
+}
+.transaction-history-container p{
+    margin-left: 5px;
+    color: grey;
+}
+.transactions-box{
+    background-color: white;
+    padding: 12px 12px;
+    border-top: 2px solid rgb(0,0,180);
+    margin-bottom: 10px;
+    box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.2);
+}
+.transactions-box b:nth-child(2){
+    float: right;
+}
+.transactions-box b:nth-child(3){
+    color: grey;
+}
+.transactions-box b:nth-child(4){
+    color: grey;
+}
+.transactions-box b:nth-child(1){
+    float: right;
+ /* text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;**/
+}
+.transactions-box a:link{
+    color: white;
+}
+
+.transactions-box a:hover{
+
+}
+.transactions-box a:visited{
+    color: white;
+}
+
+  b{
+    color: grey;
+  }
+  a:link{
+    text-decoration: none;
+  }
+  i{
+    cursor: pointer;
+    
+}
+span{
+    cursor: pointer;
+}

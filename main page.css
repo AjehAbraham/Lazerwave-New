@@ -1,0 +1,493 @@
+
+body{
+    
+    margin: 0;
+    font-size: 15px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-weight: lighter;
+    background-color: white;
+    
+    /*background: url(IMG_6771.JPG);
+    background-repeat: no-repeat;
+   background-size: cover;*/
+    
+
+}
+.main-page-header{
+
+
+
+}
+.main-page-image{
+/*
+background: url(IMG_6771.JPG);*/
+background: url(https://lazerwave.000webhostapp.com/images/image-welcome.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+  padding: 170px 170px ;
+  margin-top:20px;
+
+}
+@media only screen and (min-width: 600px){
+.main-page-image{
+
+float: right;
+padding: 220px 220px;
+
+}
+
+}
+
+.main-page-top-nav{
+padding: 15px 15px;
+background-color: white;
+border-bottom: 2px solid red;
+box-shadow: 0px 16px 8px 0px rgba(0,0,0,0.4);
+margin-bottom: 30px;
+font-size: 15px;
+overflow: hidden;
+
+}
+
+.main-page-top-nav  b:nth-child(1) a:link{
+color: red;
+text-decoration: none;
+}
+.main-page-top-nav  b:nth-child(1) a:visited{
+color: red;
+}
+
+
+
+.main-page-top-nav  b:nth-child(3) a:link{
+color: white;
+text-decoration: none;
+}
+.main-page-top-nav  b:nth-child(3) a:visited{
+color: white;
+}
+
+.main-page-top-nav  b:nth-child(4) a:link{
+color: white;
+text-decoration: none;
+}
+.main-page-top-nav  b:nth-child(4) a:visited{
+color: white;
+}
+
+
+
+
+
+
+.main-page-top-nav b:nth-child(1){
+/*
+color: red;
+padding: 8px 8px;
+cursor: pointer;
+text-align: center;*/
+padding: 8px 8px;
+color: red;
+border-radius: 2rem;
+text-align: center;
+
+width: 20%;
+
+}
+.main-page-top-nav b:nth-child(1) a:active{
+background-color: green;
+}
+.main-page-top-nav b:nth-child(2){
+/*
+color: red;
+padding: 8px 8px;
+cursor: pointer;
+border-radius: 2rem;
+text-align: center;
+cursor: pointer;*/
+padding: 8px 8px;
+color: red;
+border-radius: 2rem;
+text-align: center;
+width: 20%;
+
+
+}
+.main-page-top-nav b:nth-child(3){
+padding: 8px 8px;
+background-color: red;
+color: white;
+border-radius: 2rem;
+text-align: center;
+}
+.main-page-top-nav b:nth-child(4){
+
+padding: 8px 8px;
+background-color: rgb(0,0,100);
+color: white;
+border-radius: 2rem;
+text-align: center;
+}
+@media only screen and (min-width: 600px){
+.main-page-top-nav b:nth-child(4){
+
+float: right;
+width: 20%;
+margin-right: 5px;
+
+}
+.main-page-top-nav b:nth-child(3){
+
+float: right;
+width: 23%;
+
+}
+
+}
+@media only screen and (min-width: 600px){
+.main-page-top-nav b:nth-child(3){
+
+width: 25%;
+
+}
+
+}
+ 
+
+ 
+.main-page-logo-container{
+margin: auto;
+background-color: rgb(0,0,100);
+color: white;
+padding: 10px 10px;
+text-align: center;
+font-family: 'Tilt Prism', cursive;
+width: 70%;
+
+}
+.main-page-logo-container i{
+margin-left: 10px;
+color: red;
+}
+
+.welcome-container{
+font-size: 23px;
+letter-spacing: 7px;
+color: rgb(0,0,100);
+/*
+box-shadow: 16px 8px 8px 16px rgba(0,0,0,0.4);*/
+font-family: 'Tilt Prism', cursive;
+display: none;
+}
+@media only screen and (min-width: 600px){
+.welcome-container {
+display: block;
+}
+
+}
+
+
+
+
+
+
+
+
+.flex-box-container {
+display: flex;
+width: 95%;
+margin: auto;
+
+}
+.container-fluid-box{
+width: 48%;
+margin-right: 5px;
+background-color: mediumseagreen;
+color: white;
+margin-top: 30px;
+margin-bottom: 20px;
+text-align: center;
+
+}
+.container-fluid-box i{
+margin-left: 6px;
+}
+
+.main-page-get-started-container  p:nth-child(3){
+
+background-color: rgb(0,0,100);
+color: white;
+margin: auto;
+border-radius: 2rem;
+width: 60%;
+padding: 6px 6px;
+text-align: center;
+margin-top: 18px;
+margin-bottom: 18px;
+font-size: 18px;
+}
+.main-page-get-started-container  a:link{
+color: white;
+text-decoration: none;
+}
+.main-page-get-started-container  a:visited{
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-page-message-box{
+background-color: rgba(255,0,0,0.4);
+text-align: center;
+color: white;
+padding: 10px 10px;
+}
+@media only screen and (min-width: 600px){
+.main-page-message-box p{
+float: right;
+}
+
+
+.main-page-message-box {
+background-color: white;
+}
+.main-page-message-box p:nth-child(1){
+display: none;
+}
+
+}
+
+.main-page-message-box p:nth-child(1){
+background-color: red;
+margin-left: 6px;
+padding: 10px 10px;
+}
+
+.main-page-message-box p:nth-child(2){
+padding: 6px 6px;
+width: 70%;
+background-color: rgb(0,0,100);
+margin: auto;
+border-radius: 2rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.main-page-message-box p:nth-child(3){
+padding: 6px 6px;
+width: 70%;
+background-color: rgb(0,0,100);
+margin: auto;
+border-radius: 2rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.main-page-message-box p:nth-child(4){
+padding: 6px 6px;
+width: 70%;
+background-color: rgb(0,0,100);
+margin: auto;
+border-radius: 2rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.main-page-message-box p:nth-child(5){
+padding: 6px 6px;
+width: 70%;
+background-color: rgb(0,0,100);
+margin: auto;
+border-radius: 2rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.main-page-message-box p:nth-child(6){
+padding: 6px 6px;
+width: 70%;
+background-color: rgb(0,0,100);
+margin: auto;
+border-radius: 2rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.main-page-message-box p:nth-child(7){
+padding: 6px 6px;
+width: 70%;
+background-color: rgb(0,0,100);
+margin: auto;
+border-radius: 2rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.main-page-message-box p:nth-child(8){
+padding: 6px 6px;
+width: 70%;
+background-color: rgb(0,0,100);
+margin: auto;
+border-radius: 2rem;
+margin-top: 10px;
+margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+.main-page-about-container{
+color: #444;
+/*letter-spacing: -1px;*/
+overflow: scroll;
+transition: 0.3s;
+width: 95%;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+text-align: justify;
+margin:auto;
+font-weight: lighter;
+font-size: 15px;
+font-family: italic;
+
+}
+.main-page-text{
+width: 100%;
+background-color: #f1f1f1;
+letter-spacing: -1;
+}
+
+.main-page-text p:nth-child(1){
+text-align: center;
+font-size: 25px;
+border-bottom: 10px solid red;
+letter-spacing: 12px;
+}
+@media only screen and (min-width: 600px){
+.main-page-text{
+
+
+}
+}
+/*
+FOR MOBILE*/
+@media only screen and (min-width: 768px) {
+.main-page-about-container{
+
+}
+}
+
+
+
+
+  
+    
+    .second-image-container{
+    background: url("https://lazerwave.000webhostapp.com/images/Bolt.jpeg");
+    
+    padding: 180px 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    @media only screen and (min-width: 600px){
+.second-image-container{
+padding: 245px 245px;
+
+}
+}
+
+
+    .third-image-container{
+    background: url("https://lazerwave.000webhostapp.com/images/socialMedia.jpeg");
+    
+    padding: 180px 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    
+    @media only screen and (min-width: 600px){
+
+    .third-image-container{
+    padding: 245px 245px;
+}
+}
+
+    
+    
+    .customer-care-container{
+    background-color: rgba(0,0,100);
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 15px;
+    margin-top: 24px;
+    
+    }
+    .display-flex{
+    display: flex;
+    margin-top: 23px;
+    
+    }
+    .social-container-overlay{
+    background-color: rgba(0,0,100);
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 25px;
+    
+    }
+    .follow-social-media-container{
+    margin: auto;
+    width: 60%;
+    }
+       /*@media only screen and (min-width: 600px){
+customer-care-container{
+    
+    float: left;
+    }
+
+}
+    */
+    
+    .follow-social-media-container i{
+    font-size: 25px;
+  
+    }
+    .social-media-dropdown{
+    
+    padding:10px 10px;
+    background-color: white;
+    color: black;
+    display: none;
+    
+    box-shadow: 0px 16px 8px 0px rgba(0, 0, 0, 0.2);
+    animation:popup 1s ease forwards;
+    margin-bottom: 5px;
+}
+@keyframes popup {
+    0%{transform: scale(2) rotate(0);}
+    100%{transform: scale(1) rotate(0);}
+}
+
+
+.social-container-overlay{
+cursor: pointer;
+}
+    
+    
+
+
